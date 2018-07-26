@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'the bosco project';
+  year: number = Date.now();
 }
